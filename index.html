@@ -54,11 +54,22 @@
             <div class="container">
                 <form class="col-md-6 m-auto py-5">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Search for Meal..."
+                        <input type="text" id="food-item" class="form-control" placeholder="Search for Meal..."
                             aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-info" type="button" id="button-addon2">Button</button>
+                        <button onclick="searchMealData()" class="btn btn-info" type="button"
+                            id="button-addon2">Button</button>
                     </div>
                 </form>
+            </div>
+        </section>
+
+        <section id="foodDetails" class="m-5 bg-light">
+
+        </section>
+
+        <section id="displayMeal" class="row bg-light container justify-content-center">
+            <div id="display" class="container text-center m-5 row align-item-center" style="height:500px">
+                <h2>Search The Delicious Food</h2>
             </div>
         </section>
 
